@@ -147,7 +147,21 @@ Run the project using **Live Server** in VS Code.
 
 (Add screenshots here)
 
----
+---## 📸 Screenshots
+
+### Home Page
+
+![Home Page](./screenshots/home.png)
+
+
+### Shopping Cart
+
+![Shopping Cart](./screenshots/cart.png)
+
+
+### Order Success
+
+![Order Success](./screenshots/success.png)
 
 ## 🌐 Live Demo
 
