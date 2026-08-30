@@ -1,173 +1,103 @@
 # 📚 Sam's Bookstore
 
-A responsive e-commerce bookstore application built with **HTML, CSS, Bootstrap 5, and Vanilla JavaScript (ES6 Modules).**
+A simple and responsive online bookstore built with **HTML, CSS, JavaScript, jQuery, and Bootstrap**.
 
-Users can browse books, add products to a shopping cart, manage quantities, review their order, and complete the checkout process.
+This project simulates an e-commerce shopping experience where users can browse books, add products to the cart, manage quantities, complete checkout, and view order confirmation.
 
----
+## 🚀 Live Demo
 
-## 🚀 Features
-
-- 📚 Dynamic product rendering
-- 🛒 Add books to shopping cart
-- ➕ Increase product quantity
-- ➖ Decrease product quantity
-- 🗑️ Remove products from cart
-- 🔢 Real-time cart counter
-- 💰 Automatic price calculation
-- 💾 Save cart data using LocalStorage
-- 📝 Multi-step checkout process
-- ✅ Order confirmation page
-- 📱 Responsive design
-
----
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript ES6 Modules
-- Bootstrap 5
-- LocalStorage API
-
----
-
-## 🧠 JavaScript Concepts Used
-
-- ES6 Modules (`import` / `export`)
-- DOM Manipulation
-- Event Delegation
-- Template Literals
-- Array Methods:
-  - map()
-  - find()
-  - reduce()
-  - filter()
-- Dataset API
-- LocalStorage
-- Dynamic Rendering
-
----
-
-## 🏗️ Project Architecture
-
-### products.js
-Stores bookstore product information:
-
-- Title
-- Author
-- Price
-- Image
-
-
-### app.js
-
-Main application controller:
-
-- Loads products
-- Renders product cards
-- Handles user interactions
-- Connects application modules
-
-
-### cart.js
-
-Manages shopping cart:
-
-- Add products
-- Remove products
-- Increase/decrease quantity
-- Calculate totals
-- Save cart state
-
-
-### checkout.js
-
-Handles:
-
-- Customer information
-- Order review
-- Creating orders
-- Saving completed orders
-
-
-### success.js
-
-Displays:
-
-- Order ID
-- Total price
-- Confirmation message
-
----
-
-## 📂 Project Structure
-
-```
-Sam-Bookstore/
-│
-├── index.html
-├── success.html
-├── style.css
-│
-├── js/
-│   ├── products.js
-│   ├── app.js
-│   ├── cart.js
-│   ├── checkout.js
-│   └── success.js
-│
-├── assets/
-│   └── images/
-│
-└── README.md
-```
-
----
-
-## ⚙️ Run Locally
-
-Clone the repository:
-
-```bash
-git clone https://github.com/sam59246677/HTML-CSS-Jquery-Bootstrap-BookStore.git
-```
-
-Open the project folder:
-
-```bash
-cd HTML-CSS-Jquery-Bootstrap-BookStore
-```
-
-Run the project using **Live Server** in VS Code.
-
----
+🔗 https://sam59246677.github.io/sam-bookstore/
 
 ## 📸 Screenshots
-
-(Add screenshots here)
-
----## 📸 Screenshots
 
 ### Home Page
 
 ![Home Page](./screenshots/Home.png)
 
-
 ### Shopping Cart
 
 ![Shopping Cart](./screenshots/Cart.png)
-
 
 ### Order Success
 
 ![Order Success](./screenshots/success.png)
 
-## 🌐 Live Demo
+## ✨ Features
 
-(Add deployed project link)
+* Display products dynamically using JavaScript
+* Add books to shopping cart
+* Increase and decrease product quantity
+* Remove items from cart
+* Calculate total price automatically
+* Save cart data using LocalStorage
+* Multi-step checkout process
+* Customer information form validation
+* Order summary before confirmation
+* Order success page
+* Responsive design for different screen sizes
 
----
+## 🛠 Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6 Modules)
+* jQuery
+* Bootstrap 5
+* LocalStorage API
+* Git & GitHub Pages
+
+## 📂 Project Structure
+
+```
+sam-bookstore/
+
+│
+├── assets/
+│   └── images/
+│
+├── css/
+│   └── style.css
+│
+├── Js/
+│   ├── app.js
+│   ├── cart.js
+│   ├── checkout.js
+│   ├── products.js
+│   └── success.js
+│
+├── screenshots/
+│   ├── Home.png
+│   ├── Cart.png
+│   └── success.png
+│
+├── index.html
+├── success.html
+└── README.md
+```
+
+## ▶️ How To Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/sam59246677/sam-bookstore.git
+```
+
+2. Open the project folder:
+
+```bash
+cd sam-bookstore
+```
+
+3. Run the project using a local server.
+
+For example, you can use:
+
+* VS Code Live Server extension
+
+## 📌 Notes
+
+This project was created as a frontend practice project to improve skills in JavaScript DOM manipulation, modular JavaScript, LocalStorage, and responsive UI development.
 
 ## 👨‍💻 Author
 
@@ -175,3 +105,6 @@ Sam Rostami
 
 GitHub:
 https://github.com/sam59246677
+
+```
+```
