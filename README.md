@@ -151,12 +151,12 @@ Run the project using **Live Server** in VS Code.
 
 ### Home Page
 
-![Home Page](./screenshots/home.png)
+![Home Page](./screenshots/Home.png)
 
 
 ### Shopping Cart
 
-![Shopping Cart](./screenshots/cart.png)
+![Shopping Cart](./screenshots/Cart.png)
 
 
 ### Order Success
